@@ -1,0 +1,23 @@
+{
+  "name": "mmdax-nodejs-image",
+  "version": "1.0.0",
+  "description": "mmdax nodejs image",
+  "author": "Mateus Macedo Dos Anjos<mmdaxbrasil@gmail.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "scripts": {
+    "dev": "nodemon ./app.js",
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
